@@ -29,8 +29,8 @@ const Perro = {
     raza: 'chusco',
     color: 'morado',
     edad: '78',
-    ladrar: ()=>{console.log('un ladrido')},
-    popo: ()=>{return Math.random() * 3},
+    ladrar: () => { console.log('un ladrido') },
+    popo: () => { return Math.random() * 3 },
 
 };
 
@@ -64,7 +64,7 @@ Portatil.modelo = 'P345';
 
 //11.- Dado un objeto de nombre Concierto modifica el valor de la propiedad fecha por el valor new Date() (fecha de hoy)
 
-//Concierto.fehca
+//Concierto.fecha
 
 //12.- Dado un objeto de nombre Impresora modifica el valor de la propiedad imprimiendo por el valor objeto con propiedades: nombreArchivo, copias, numPaginas
 
@@ -88,23 +88,26 @@ const Persona = {
 
 //15.- Crea un objeto de nombre Avion que tenga las propiedades: numPasajeros, función despegar (imprime por consola 'despegando'), función volar (imprime por consola llegando al destino), función aterrizar (imprime por consola 'aterrizando'
 
-//const Avion = {
-//    numPasajeros: 272,
-//    despegar: => (){console.log('despegando')},
-//    volar: => (){console.log('llegando al destino')},
-//    aterrizar: => (){console.log('aterrizando')}
-//};
+const Avion = {
+    numPasajeros: 272,
+    despegar: ()=> {console.log('despegando')},
+    volar: ()=> {console.log('llegando al destino')},
+    aterrizar: ()=> {console.log('aterrizando')}
+};
 
 //16.- Crea un objeto de nombre Paquete que tenga las propiedades: array contenido con todos los objetos que contenga el paquete
 
+const Paquete = {
+    contenido: [this.Paquete]
+}
+
 //17.- Crea un objeto de nombre Pais que tenga las propiedades: numHabitantes, continente, gentilicio
 
-//let Pais {
-//    numHabitantes: '32784992',
-//    continente: 'Africa',
-//    gentilicio: 'lo dudo'
-//};
-
+let Pais =  {
+    numHabitantes: 32784992,
+    continente: "Africa",
+    gentilicio: "lo dudo"
+};
 
 //................Lectura de propiedades
 
